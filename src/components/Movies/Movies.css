@@ -1,0 +1,29 @@
+.movies__moreMovies {
+	display: flex;
+	justify-content: center;
+}
+
+.movies__moreMovies-button {
+	width: 100%;
+	height: 36px;
+	margin: 50px 70px 80px;
+	background-color: #F9F9F9;
+	border: none;
+	font-size: 12px;
+	font-weight: 500;
+	color: black;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.movies__moreMovies-button:hover {
+	background-color: #4285F4;
+	color: black;
+}
+
+
+@media screen and (max-width: 540px) {
+	.movies__moreMovies-button {
+		width: 240px;
+	}
+}

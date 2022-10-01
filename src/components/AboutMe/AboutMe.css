@@ -1,6 +1,7 @@
 .section_about-me {
 	padding-bottom: 0;
 	padding: 110px 70px 0px;
+
 }
 
 .about-me {
@@ -25,6 +26,7 @@
 	letter-spacing: -0.04em;
 	grid-area: name;
 	text-align: start;
+	color: white;
 }
 
 .about-me__profession {
@@ -35,6 +37,7 @@
 	grid-area: profession;
 	text-align: start;
 	font-weight: 500;
+	color: white;
 }
 
 .about-me__info {
@@ -44,6 +47,7 @@
 	line-height: 22px;
 	grid-area: info;
 	text-align: start;
+	color: white;
 }
 
 .about-me__link {
@@ -51,7 +55,7 @@
 	font-size: 14px;
 	line-height: 17px;
 	text-decoration: none;
-	color: #000000;
+	color: white;
 	grid-area: link;
 	transition: 2s;
 	text-align: start;

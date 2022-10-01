@@ -1,6 +1,6 @@
 .filterCheckBox {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	gap: 16px;
 	margin: 32px 0 47px;
 }
@@ -25,7 +25,7 @@
 	height: 20px;
 	appearance: none;
 	outline: none;
-	background-color: #EBEBEB;
+	background-color: #b8b2b2;
 	border-radius: 20px;
 }
 
@@ -55,6 +55,7 @@
 	font-size: 13px;
 	font-weight: normal;
 	line-height: 1.6;
+	color: #FFFFFF;
 }
 
 @media screen and (max-width: 540px) {

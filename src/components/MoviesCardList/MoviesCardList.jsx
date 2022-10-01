@@ -7,7 +7,27 @@ const movies = [
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
+	},
+	{
+		description: '33 слова о дизайне',
+		image: movieImage,
+		duration: '1ч 42м'
+	},
+	{
+		description: '33 слова о дизайне',
+		image: movieImage,
+		duration: '1ч 42м'
+	},
+	{
+		description: '33 слова о дизайне',
+		image: movieImage,
+		duration: '1ч 42м'
+	},
+	{
+		description: '33 слова о дизайне',
+		image: movieImage,
+		duration: '1ч 42м'
 	},
 	{
 		description: '33 слова о дизайне',
@@ -17,71 +37,51 @@ const movies = [
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	},
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	},
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	},
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	},
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	},
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	},
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	},
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	},
 	{
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
-	},
-	{
-		description: '33 слова о дизайне',
-		image: movieImage,
-		duration: '1ч42м'
-	},
-	{
-		description: '33 слова о дизайне',
-		image: movieImage,
-		duration: '1ч42м'
-	},
-	{
-		description: '33 слова о дизайне',
-		image: movieImage,
-		duration: '1ч42м'
-	},
-	{
-		description: '33 слова о дизайне',
-		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	}, {
 		description: '33 слова о дизайне',
 		image: movieImage,
-		duration: '1ч42м'
+		duration: '1ч 42м'
 	},
 
 ];

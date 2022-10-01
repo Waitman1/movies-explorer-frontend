@@ -9,12 +9,12 @@
 	height: 46px;
 	;
 	border-radius: 8px;
-	background-color: #F9F9F9;
+	background-color: #2F2F2F;
 	border: none;
 	margin: 10px 0 20px;
 	font-size: 13px;
 	font-weight: normal;
-	color: black;
+	color: white;
 	padding-left: 15px;
 }
 
@@ -36,7 +36,7 @@
 .form__button {
 	width: 396px;
 	height: 45px;
-	background-color: #3456F3;
+	background-color: #4285F4;
 	cursor: pointer;
 	color: white;
 	font-size: 14px;

@@ -1,15 +1,17 @@
 .section__about {
 	padding: 110px 70px;
+	background-color: #202020;
 }
 
 .section__title {
 	margin: 0;
 	text-align: start;
+	color: #FFFFFF;
 	font-size: 22px;
 	line-height: 27px;
 	letter-spacing: -0.04em;
 	font-weight: normal;
-	border-bottom: 1px solid #000000;
+	border-bottom: 1px solid #DADADA;
 	height: 49px;
 }
 
@@ -32,6 +34,8 @@
 	line-height: 24px;
 	letter-spacing: -0.04em;
 	text-align: start;
+	color: #FFFFFF;
+
 }
 
 .table__text {
@@ -39,6 +43,7 @@
 	font-size: 14px;
 	line-height: 20px;
 	text-align: start;
+	color: #FFFFFF;
 }
 
 .stages {
@@ -62,7 +67,11 @@
 }
 
 .stages__item_background-color_grey {
-	background-color: #F2F2F2;
+	background-color: #303030;
+}
+
+.stage__description-color_white {
+	color: white;
 }
 
 .stages__item_font-color-grey {
@@ -74,6 +83,7 @@
 	font-size: 14px;
 	line-height: 17px;
 }
+
 
 @media screen and (max-width: 800px) {
 	.section__about {

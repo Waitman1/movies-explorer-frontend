@@ -18,7 +18,7 @@
 }
 
 .navigation__container {
-	width: 381px;
+	width: 676px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -34,7 +34,7 @@
 		max-width: 520px;
 		height: 100%;
 		position: relative;
-		background-color: #FFFFFF;
+		background-color: #202020;
 		flex-direction: column;
 		align-items: center;
 		margin: 0 0 0 auto;
@@ -63,7 +63,7 @@
 }
 
 .navigation__link {
-	color: black;
+	color: #FFFFFF;
 	text-decoration: none;
 	padding-top: 7px;
 	font-size: 13px;
@@ -82,20 +82,21 @@
 	}
 
 	.navigation__link:hover {
-		border-bottom: 1px solid #000000;
+		border-bottom: 1px solid #FFFFFF;
 	}
 }
 
 .navigation__button {
 	width: 100px;
 	height: 30px;
-	background-color: inherit;
+	background-color: #313131;
 	border: none;
 	padding: 0;
 	display: flex;
 	cursor: pointer;
 	border-radius: 20px;
 	text-decoration: none;
+	justify-content: center;
 }
 
 
@@ -114,17 +115,13 @@
 .navigation__button-text {
 	font-size: 14px;
 	font-weight: 500;
-	color: black;
+	color: #FFFFFF;
 	margin: 0;
 	padding-top: 7px;
 	padding-left: 2px;
 }
 
-.navigation__button-icon {
-	width: 30px;
-	height: 30;
-	border-radius: 6px;
-}
+
 
 .navigation__button-image {
 	width: 10.5px;

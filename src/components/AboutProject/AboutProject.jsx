@@ -16,10 +16,10 @@ function AboutProject() {
 			</ul>
 			<ul className="stages">
 				<li className="stages__item stages__item_background-color_green">
-					<p className="stage__description">1 неделя</p>
+					<p className="stage__description stage__description-color_green ">1 неделя</p>
 				</li>
 				<li className="stages__item stages__item_background-color_grey">
-					<p className="stage__description">4 недели</p>
+					<p className="stage__description stage__description-color_white">4 недели</p>
 				</li>
 				<li className="stages__item stages__item_font-color-grey">
 					<p className="stage__description">Back-end</p>

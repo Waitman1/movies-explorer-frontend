@@ -22,11 +22,12 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	border-top: 1px solid #E8E8E8;
+	border-top: 1px solid #424242;
 }
 
 .footer__copyright {
 	margin: 0;
+	color: #FFFFFF;
 }
 
 .footer__link-list {
@@ -38,7 +39,7 @@
 
 .footer__link {
 	text-decoration: none;
-	color: #000000;
+	color: #FFFFFF;
 	transition: 2s;
 }
 

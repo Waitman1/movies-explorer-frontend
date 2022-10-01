@@ -1,5 +1,5 @@
 .section_techs {
-	background-color: #F5F5F5;
+	background-color: #272727;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	padding: 110px 70px;
@@ -17,6 +17,7 @@
 	font-size: 50px;
 	line-height: 58px;
 	letter-spacing: -0.04em;
+	color: #FFFFFF;
 }
 
 .seven-technologies__subtitle {
@@ -26,6 +27,7 @@
 	font-size: 14px;
 	line-height: 20px;
 	letter-spacing: -0.04em;
+	color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
@@ -51,7 +53,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #E8E8E8;
+	background-color: #303030;
 	border-radius: 10px;
 }
 
@@ -61,6 +63,7 @@
 	font-size: 14px;
 	line-height: 17px;
 	letter-spacing: -0.04em;
+	color: #FFFFFF;
 }
 
 .cards__item:last-of-type {

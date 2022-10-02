@@ -9,19 +9,19 @@ function Portfolio() {
 				<nav className="portfolio__links">
 					<ul className="portfolio__link-list">
 						<li className="portfolio__link-item">
-							<a className="portfolio__link" href="https://github.com/Waitman1/how-to-learn" target="blanck">
+							<a className="portfolio__link" href="https://waitman1.github.io/how-to-learn/" target="_blank" rel="noreferrer">
 								<p className="portfolio__link-text">Статичный сайт</p>
 								<img className="portfolio__link-image" src={link} alt="Перейти по ссылке"></img>
 							</a>
 						</li>
 						<li className="portfolio__link-item">
-							<a className="portfolio__link" href="https://waitman1.github.io/russian-travel/" target="blanck">
+							<a className="portfolio__link" href="https://waitman1.github.io/russian-travel/" target="_blank" rel="noreferrer">
 								<p className="portfolio__link-text">Адаптивный сайт</p>
 								<img className="portfolio__link-image" src={link} alt="Перейти по ссылке"></img>
 							</a>
 						</li>
 						<li className="portfolio__link-item">
-							<a className="portfolio__link" href="http://waitman.students.nomorepartiesxyz.ru/" target="blanck">
+							<a className="portfolio__link" href="http://waitman.students.nomorepartiesxyz.ru/" target="_blank" rel="noreferrer">
 								<p className="portfolio__link-text">Одностраничное приложение</p>
 								<img className="portfolio__link-image" src={link} alt="Перейти по ссылке"></img>
 							</a>

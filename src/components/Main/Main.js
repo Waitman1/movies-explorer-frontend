@@ -8,7 +8,7 @@ import NavTab from '../NavTab/NavTab';
 
 function Main() {
   return (
-    <div className="content">
+    <main className="content">
 		<Promo/>
 		<NavTab/>
 		<AboutProject/>
@@ -16,7 +16,7 @@ function Main() {
 		<AboutMe/>
 		<Portfolio/>
 
-    </div>
+    </main>
   );
 }
 

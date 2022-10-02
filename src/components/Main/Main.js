@@ -15,7 +15,7 @@ function Main() {
 		<Techs/>
 		<AboutMe/>
 		<Portfolio/>
-		
+
     </div>
   );
 }

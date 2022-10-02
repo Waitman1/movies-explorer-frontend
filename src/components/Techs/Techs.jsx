@@ -3,7 +3,7 @@ import './Techs.css'
 function Techs() {
 	return (
 		<section className=" section_techs">
-			<h2 className="section__title">Технологии</h2>
+			<h2 className="section__title-techs section__title">Технологии</h2>
 			<article className="seven-technologies">
 				<h3 className="seven-technologies__title">7 технологий</h3>
 				<p className="seven-technologies__subtitle">На курсе веб-разработки мы освоили технологии, которые применили в дипломном проекте.</p>

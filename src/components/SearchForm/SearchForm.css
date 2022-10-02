@@ -64,6 +64,11 @@
 	position: absolute;
 	right: 0;
 	bottom: 13px;
+	opacity: 100%;
+}
+
+.searchForm__button:hover {
+	opacity: 80%;
 }
 
 @media screen and (max-width: 540px) {

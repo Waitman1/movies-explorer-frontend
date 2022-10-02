@@ -114,7 +114,11 @@
 @media screen and (max-width: 400px) {
 	.section_techs {
 		padding: 60px 18px;
-		background-color: #FFFFFF;
+		background-color: #202020;
+	}
+
+	.section__title-techs {
+		border-bottom: 1px solid #000000;
 	}
 
 	.seven-technologies__title {

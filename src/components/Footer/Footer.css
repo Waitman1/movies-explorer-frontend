@@ -8,6 +8,10 @@
 	line-height: 16px;
 }
 
+.footer_none {
+	display: none;
+}
+
 .footer__title {
 	margin: 0 0 20px;
 	font-size: 13px;

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Navigation.css'
-import ButtonImage from '../../images/profile.svg';
 
 function Navigation({ isOpen, onClose }) {
 	return (
@@ -10,7 +9,7 @@ function Navigation({ isOpen, onClose }) {
 				<nav className="navigation__links">
 					<Link to='/' className='navigation__link'>Главная</Link>
 					<Link to='/movies' className='navigation__link'>Фильмы</Link>
-					<Link to='saved-movies' className='navigation__link'>Сохраненные фильмы</Link>
+					<Link to='saved_movies' className='navigation__link'>Сохраненные фильмы</Link>
 				</nav>
 
 				<Link className='navigation__button' to='/profile'>

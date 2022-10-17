@@ -1,23 +1,30 @@
 import React from 'react';
 import './Movies.css';
-import MoviesCardList from '../MoviesCardList/MoviesCardList';
+import MoviesCardList from '../MoviesCardList/MoviesCardList.jsx';
 import Preloader from '../Preloader/Preloader';
 import SearchForm from '../SearchForm/SearchForm';
 
-function Movies() {
+function Movies({ movieCards, searchMovie, message, movies, isLoad, onShort, isShort, isSavedMovie, handleAction }) {
 
 	return (
 		<section>
 
-			<SearchForm />
+			<SearchForm searchMovie={searchMovie}
+				movies={movies}
+				onShort={onShort}
+				isShort={isShort}
+				movieCards={movieCards}
+			/>
 
-			<Preloader />
+			<Preloader isLoad={isLoad} />
 
-			<MoviesCardList className={'moviesCard__button'} />
+			<p className='movies__massage'> {message}</p>
 
-			<section className='movies__moreMovies'>
-				<button className='movies__moreMovies-button' type='button'>Ещё</button>
-			</section>
+			<MoviesCardList movieCards={movieCards}
+				isSavedMovie={isSavedMovie}
+				isLoad={isLoad}
+				handleAction={handleAction}>
+			</MoviesCardList>
 
 		</section>
 	);

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Navigation.css'
-import ButtonImage from '../../images/profile.svg';
 
 function Navigation({ isOpen, onClose }) {
 	return (

@@ -14,9 +14,6 @@ function MoviesCard(props) {
 
 	return (
 		<li className='moviesCard'>
-			<a href={props.trailerLink} target='blank' className='moviesCard__link'>
-				<img className='moviesCard__image' src={props.image} alt={props.nameRu} />
-			</a>
 			<div className='moviesCards__information'>
 				<h2 className='moviesCard__title'>{props.nameRU}</h2>
 				<p className='moviesCard__description'>{`${time()}`}</p>
@@ -34,6 +31,10 @@ function MoviesCard(props) {
 					type='submit'
 					onClick={() => props.onDeleteMovie(props.movie)} />
 			)}
+			<a href={props.trailerLink} target='blank' className='moviesCard__link'>
+				<img className='moviesCard__image' src={props.image} alt={props.nameRu} />
+			</a>
+
 
 		</li>
 	);

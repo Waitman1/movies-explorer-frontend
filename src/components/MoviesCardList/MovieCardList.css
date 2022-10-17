@@ -20,14 +20,13 @@
 
 .movieCardList__elements {
 	margin: 0 auto;
-	max-width: 850px;
 	list-style: none;
 	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 32px 20px;
 	justify-content: center;
-	align-items: center;
+
 }
 
 @media screen and (max-width: 768px) {

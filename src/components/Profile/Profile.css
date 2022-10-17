@@ -12,6 +12,11 @@
 	color: #fff;
 }
 
+.profile__massage {
+	color: #80abf0;
+	text-align: center;
+}
+
 @media screen and (max-width: 768px) {
 	.profile__title {
 		margin-top: 246px;
